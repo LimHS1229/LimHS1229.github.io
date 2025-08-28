@@ -12,12 +12,15 @@
 
     /* 사이드 메뉴 */
     .sidebar {
-      width: 200px;
+      width: 600px;
       background-color: #111;
       color: white;
       height: 100vh;
       padding-top: 20px;
       position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* 중앙 정렬 */
     }
 
     .sidebar a {
@@ -32,11 +35,27 @@
       background-color: #575757;
     }
 
+    /* 하위 메뉴 */
+    .submenu {
+      display: none;
+      margin-left: 30px;
+    }
+
+    .submenu a {
+      padding: 10px 20px;
+      font-size: 14px;
+      color: #ddd;
+    }
+
+    .submenu a:hover {
+      background-color: #444;
+    }
+
     /* 상단 바 */
     .topbar {
       position: fixed;
       top: 0;
-      left: 200px;
+      left: 600px;
       right: 0;
       height: 60px;
       background-color: #222;
@@ -88,8 +107,8 @@
 
     /* 콘텐츠 */
     .content {
-      margin-left: 200px;
-      padding: 100px 30px 30px 30px; /* 위쪽 공간 확보 */
+      margin-left: 600px;
+      padding: 100px 30px 30px 30px;
       flex: 1;
     }
 
@@ -106,15 +125,35 @@
 
   <!-- 사이드바 -->
   <div class="sidebar">
-    <a onclick="showSection('mocap')">MOCAP ARTIST</a>
-    <a onclick="showSection('crowd')">CROWD ARTIST</a>
-    <a onclick="showSection('tech')">Technical Animator</a>
+    <a onclick="toggleSubmenu('mocap-sub')">MOCAP ARTIST</a>
+    <div id="mocap-sub" class="submenu">
+      <a onclick="showSection('mocap-op')">MoCap Operation</a>
+      <a onclick="showSection('mocap-clean')">Data CleanUp</a>
+      <a onclick="showSection('mocap-edit')">Editing & Animation</a>
+    </div>
+
+    <a onclick="toggleSubmenu('crowd-sub')">CROWD ARTIST</a>
+    <div id="crowd-sub" class="submenu">
+      <a onclick="showSection('crowd-maya')">Maya Usd Clip</a>
+      <a onclick="showSection('crowd-houdini')">Houdini Agent</a>
+    </div>
+
+    <a onclick="toggleSubmenu('tech-sub')">Technical Animator</a>
+    <div id="tech-sub" class="submenu">
+      <a onclick="showSection('tech-maya')">Maya Python</a>
+      <a onclick="showSection('tech-houdini')">Houdini Crowd</a>
+      <a onclick="showSection('tech-lib')">MotionCapture Library</a>
+      <a onclick="showSection('about')">About Me</a>
+    </div>
+
+    <a onclick="toggleSubmenu('other-sub')">Other</a>
+    <div id="other-sub" class="submenu">
+      <a onclick="showSection('ai')">Think About A.I.</a>
+    </div>
   </div>
 
   <!-- 상단바 -->
   <div class="topbar">
-    <a onclick="showSection('about')">About me</a>
-    <a onclick="showSection('other')">Other</a>
     <div class="language-dropdown">
       <a>Language</a>
       <div class="language-options">
@@ -127,29 +166,48 @@
 
   <!-- 콘텐츠 영역 -->
   <div class="content">
-    <div id="mocap" class="section active">
-      <h1>MOCAP ARTIST</h1>
-      <p>여기에 당신의 MOCAP 작업물을 올리세요.</p>
+    <div id="mocap-op" class="section active">
+      <h1>MoCap Operation</h1>
+      <p>모캡 오퍼레이션 작업물을 여기에 올리세요.</p>
+    </div>
+    <div id="mocap-clean" class="section">
+      <h1>Data CleanUp</h1>
+      <p>모캡 데이터 클린업 작업물을 여기에 올리세요.</p>
+    </div>
+    <div id="mocap-edit" class="section">
+      <h1>Editing & Animation</h1>
+      <p>편집 및 애니메이션 작업물을 여기에 올리세요.</p>
     </div>
 
-    <div id="crowd" class="section">
-      <h1>CROWD ARTIST</h1>
-      <p>여기에 당신의 Crowd 작업물을 올리세요.</p>
+    <div id="crowd-maya" class="section">
+      <h1>Maya Usd Clip</h1>
+      <p>마야 USD 클립 작업물을 여기에 올리세요.</p>
+    </div>
+    <div id="crowd-houdini" class="section">
+      <h1>Houdini Agent</h1>
+      <p>후디니 에이전트 작업물을 여기에 올리세요.</p>
     </div>
 
-    <div id="tech" class="section">
-      <h1>Technical Animator</h1>
-      <p>여기에 당신의 테크니컬 작업물을 올리세요.</p>
+    <div id="tech-maya" class="section">
+      <h1>Maya Python</h1>
+      <p>마야 파이썬 스크립트 작업물을 여기에 올리세요.</p>
     </div>
-
+    <div id="tech-houdini" class="section">
+      <h1>Houdini Crowd</h1>
+      <p>후디니 크라우드 작업물을 여기에 올리세요.</p>
+    </div>
+    <div id="tech-lib" class="section">
+      <h1>MotionCapture Library</h1>
+      <p>모션캡쳐 라이브러리 작업물을 여기에 올리세요.</p>
+    </div>
     <div id="about" class="section">
       <h1>About Me</h1>
       <p>이곳에 당신의 소개글과 이력 등을 작성하세요.</p>
     </div>
 
-    <div id="other" class="section">
-      <h1>Other</h1>
-      <p>추가 페이지나 콘텐츠를 위한 공간입니다.</p>
+    <div id="ai" class="section">
+      <h1>Think About A.I.</h1>
+      <p>A.I.에 대한 생각과 정리들을 여기에 올리세요.</p>
     </div>
   </div>
 
@@ -161,9 +219,13 @@
       document.getElementById(id).classList.add('active');
     }
 
+    function toggleSubmenu(id) {
+      const submenu = document.getElementById(id);
+      submenu.style.display = submenu.style.display === "block" ? "none" : "block";
+    }
+
     function changeLanguage(lang) {
       alert("언어 변경 기능은 추후 구현 예정입니다: " + lang.toUpperCase());
-      // 여기에 실제 다국어 처리 로직을 추가할 수 있습니다.
     }
   </script>
 
