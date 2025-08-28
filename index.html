@@ -32,10 +32,64 @@
       background-color: #575757;
     }
 
-    /* 콘텐츠 영역 */
+    /* 상단 바 */
+    .topbar {
+      position: fixed;
+      top: 0;
+      left: 200px;
+      right: 0;
+      height: 60px;
+      background-color: #222;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0 30px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+
+    .topbar a {
+      color: white;
+      text-decoration: none;
+      margin-left: 30px;
+      position: relative;
+      cursor: pointer;
+    }
+
+    /* Language 드롭다운 */
+    .language-dropdown {
+      position: relative;
+    }
+
+    .language-options {
+      display: none;
+      position: absolute;
+      top: 30px;
+      right: 0;
+      background-color: #333;
+      border: 1px solid #555;
+      border-radius: 4px;
+      z-index: 1001;
+    }
+
+    .language-options div {
+      padding: 10px 20px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .language-options div:hover {
+      background-color: #555;
+    }
+
+    .language-dropdown:hover .language-options {
+      display: block;
+    }
+
+    /* 콘텐츠 */
     .content {
       margin-left: 200px;
-      padding: 20px;
+      padding: 100px 30px 30px 30px; /* 위쪽 공간 확보 */
       flex: 1;
     }
 
@@ -50,12 +104,28 @@
 </head>
 <body>
 
+  <!-- 사이드바 -->
   <div class="sidebar">
     <a onclick="showSection('mocap')">MOCAP ARTIST</a>
     <a onclick="showSection('crowd')">CROWD ARTIST</a>
     <a onclick="showSection('tech')">Technical Animator</a>
   </div>
 
+  <!-- 상단바 -->
+  <div class="topbar">
+    <a onclick="showSection('about')">About me</a>
+    <a onclick="showSection('other')">Other</a>
+    <div class="language-dropdown">
+      <a>Language</a>
+      <div class="language-options">
+        <div onclick="changeLanguage('ko')">KO</div>
+        <div onclick="changeLanguage('jp')">JP</div>
+        <div onclick="changeLanguage('en')">EN</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 콘텐츠 영역 -->
   <div class="content">
     <div id="mocap" class="section active">
       <h1>MOCAP ARTIST</h1>
@@ -71,13 +141,29 @@
       <h1>Technical Animator</h1>
       <p>여기에 당신의 테크니컬 작업물을 올리세요.</p>
     </div>
+
+    <div id="about" class="section">
+      <h1>About Me</h1>
+      <p>이곳에 당신의 소개글과 이력 등을 작성하세요.</p>
+    </div>
+
+    <div id="other" class="section">
+      <h1>Other</h1>
+      <p>추가 페이지나 콘텐츠를 위한 공간입니다.</p>
+    </div>
   </div>
 
+  <!-- JS 기능 -->
   <script>
     function showSection(id) {
       const sections = document.querySelectorAll('.section');
       sections.forEach(section => section.classList.remove('active'));
       document.getElementById(id).classList.add('active');
+    }
+
+    function changeLanguage(lang) {
+      alert("언어 변경 기능은 추후 구현 예정입니다: " + lang.toUpperCase());
+      // 여기에 실제 다국어 처리 로직을 추가할 수 있습니다.
     }
   </script>
 
