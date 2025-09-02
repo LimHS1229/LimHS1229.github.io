@@ -20,7 +20,7 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 MoCap & Crowd <br> Technical Animator
+title:                 "MoCap & Crowd <br> Technical Animator"
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -32,7 +32,7 @@ description:           >
 tagline:               Hello, I'm Mocap/Crowd artist and Technical Animator in VFX pipeline.
 
 # A list of keywords for your blog
-keywords:              [TA / Mocap / Crowd]
+keywords:              [TA, Mocap, Crowd]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -49,21 +49,24 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Motion Capture Artist
+  - title:             "Motion Capture Artist"
     url:               /example/
     submenu:
-      - title:         Mocap Cleaning
+      - title:         "Mocap Cleaning"
         url:           /mocapclean/
-  - title:             Crowd Artist
+        
+  - title:             "Crowd Artist"
     url:               /docs/
     submenu:
-     - title:          Houdini Agent
+     - title:          "Houdini Agent"
        url:            /HoudiniAgent/
-     - title:          Crowd Simulation
+     - title:          "Crowd Simulation"
        url:            /Crowd/
-  - title:             Technical Animator
+       
+  - title:             "Technical Animator"
     url:               /about/
-     - title:          Maya Python
+    submenu:    
+     - title:          "Maya Python"
        url:            /MayaPython/
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
