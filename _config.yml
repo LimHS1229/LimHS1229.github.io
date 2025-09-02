@@ -53,12 +53,12 @@ menu:
     url:               /example/
     submenu:
       - title:         Mocap Cleaning
-        url:           /network/
+        url:           /mocapclean/
   - title:             Crowd Artist
     url:               /docs/
     submenu:
      - title:          Houdini Agent
-       url:            /hydejack/
+       url:            /HoudiniAgent/
      - title:          Crowd Simulation
        url:            /Crowd/
   - title:             Technical Animator
@@ -101,7 +101,7 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/blog/_DSC1857.JPG
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
