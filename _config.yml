@@ -51,11 +51,20 @@ author:
 menu:
   - title:             Motion Capture Artist
     url:               /example/
+    submenu:
+      - title:         Mocap Cleaning
+        url:           /network/
   - title:             Crowd Artist
     url:               /docs/
+    submenu:
+     - title:          Houdini Agent
+       url:            /hydejack/
+     - title:          Crowd Simulation
+       url:            /Crowd/
   - title:             Technical Animator
     url:               /about/
-
+     - title:          Maya Python
+       url:            /MayaPython/
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
