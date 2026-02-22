@@ -14,6 +14,7 @@ gem "kramdown-math-katex"
 group :jekyll_plugins do
   gem "jekyll-default-layout"
   gem "jekyll-feed"
+  gem "jekyll-remote-theme"
   gem "jekyll-optional-front-matter"
   gem "jekyll-paginate"
   gem "jekyll-readme-index"
