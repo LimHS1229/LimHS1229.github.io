@@ -57,6 +57,8 @@ menu:
     submenu:
       - title:         "Mocap Cleaning"
         url:           /mocapclean/
+      - title:         "test"
+        url:           /test/
         
   - title:             "Crowd Artist"
     url:               /docs/
