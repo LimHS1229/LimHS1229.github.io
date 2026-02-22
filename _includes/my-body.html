@@ -49,6 +49,83 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
   });
 </script>
 
+<script>
+  (function () {
+    var WRITE_BUTTON_ID = "write-post-btn";
+    var WRITE_URL = "{{ '/write/' | relative_url }}";
+
+    function findDarkModeToggle() {
+      var directSelectors = [
+        "#_dark-mode",
+        ".dark-mode-toggle",
+        "button[aria-label*='dark' i]",
+        "a[aria-label*='dark' i]",
+        "button[title*='dark' i]",
+        "a[title*='dark' i]"
+      ];
+
+      for (var i = 0; i < directSelectors.length; i += 1) {
+        var el = document.querySelector(directSelectors[i]);
+        if (el) return el;
+      }
+
+      var iconNodes = document.querySelectorAll(".material-icons, .icon-moon, .icon-sun");
+      for (var j = 0; j < iconNodes.length; j += 1) {
+        var text = (iconNodes[j].textContent || "").toLowerCase();
+        if (text.indexOf("brightness") > -1 || text.indexOf("dark") > -1 || text.indexOf("light") > -1) {
+          var trigger = iconNodes[j].closest("button, a");
+          if (trigger) return trigger;
+        }
+      }
+
+      return null;
+    }
+
+    function buildWriteButton(wrapInListItem) {
+      var link = document.createElement("a");
+      link.id = WRITE_BUTTON_ID;
+      link.href = WRITE_URL;
+      link.className = "write-post-btn";
+      link.setAttribute("aria-label", "글쓰기 페이지 열기");
+      link.setAttribute("title", "글쓰기");
+      link.innerHTML = '<span class="material-icons" aria-hidden="true">edit</span><span class="write-post-btn-text">글쓰기</span>';
+
+      if (!wrapInListItem) return link;
+
+      var li = document.createElement("li");
+      li.className = "write-post-btn-item";
+      li.appendChild(link);
+      return li;
+    }
+
+    function ensureWriteButton() {
+      if (document.getElementById(WRITE_BUTTON_ID)) return;
+
+      var darkToggle = findDarkModeToggle();
+      if (!darkToggle) return;
+
+      var darkListItem = darkToggle.closest("li");
+      if (darkListItem && darkListItem.parentElement && darkListItem.parentElement.tagName === "UL") {
+        darkListItem.insertAdjacentElement("afterend", buildWriteButton(true));
+        return;
+      }
+
+      darkToggle.insertAdjacentElement("afterend", buildWriteButton(false));
+    }
+
+    var pushStateEl = document.getElementById("_pushState");
+    if (pushStateEl) {
+      pushStateEl.addEventListener("hy-push-state-after", function () {
+        setTimeout(ensureWriteButton, 50);
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(ensureWriteButton, 50);
+    });
+  })();
+</script>
+
 {% comment %}
 <!--
 Example code for using Matamo as alternative analytics solution.

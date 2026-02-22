@@ -40,3 +40,41 @@
     display: block;
   }
 }
+
+.write-post-btn-item {
+  list-style: none;
+}
+
+.write-post-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .25rem;
+  padding: .3rem .55rem;
+  margin-left: .4rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: .8rem;
+  line-height: 1;
+  opacity: .9;
+}
+
+.write-post-btn:hover,
+.write-post-btn:focus-visible {
+  opacity: 1;
+}
+
+.write-post-btn .material-icons {
+  font-size: 1rem;
+}
+
+@media (max-width: 48em) {
+  .write-post-btn-text {
+    display: none;
+  }
+
+  .write-post-btn {
+    padding: .35rem;
+    margin-left: .25rem;
+  }
+}
