@@ -3,7 +3,9 @@
 > *#**MotionCapture Artist** , #**Crowd Artist** , #**Animation TA** , #**Animation Pipeline*** , #**Animatior**
 -  안녕하세요! 모션캡쳐 및 군중 시뮬레이션과, 3D 애니메이션 파트 전문 VFX 테크니컬 아티스트로 활동하고있습니다.  
 Hello! I am work in MoCap Artist, Crowd Simulation artist, VFX pipeline TA and 3D animation TA .
+
 ---
+
 ## 주요 경력
 
 - <img src="../assets/img/logos/dexter.png" width="80" height="32"> [Dexter Studios](https://dexterstudios.com/ko/)
@@ -36,8 +38,8 @@ Hello! I am work in MoCap Artist, Crowd Simulation artist, VFX pipeline TA and 3
   - 키 애니메이션을 통해, 인간 외의 생물이나 기계 등의 애니메이션 제작
 
 ---
-### Main Stacks
 
+## Main Stacks
 
 | Type | Tool | 비고 |
 |:------|:------:|:--------|
@@ -45,8 +47,11 @@ Hello! I am work in MoCap Artist, Crowd Simulation artist, VFX pipeline TA and 3
 | Motion Capture | Vicon shogun, Xsens, UnrealEngine, DynamicXYZ 등 | 페이셜에 UE메타휴먼, Dxyz 사용 |
 | TA |  Python, Linux bash 등 | mayaCmds, MEL, VEX 모듈 주력 |
 | other | GPT codex , gemini CLI, claude Code 등 AI agent 를 작업에 적극적으로 기용 | Local AI를 통한 파이프라인 관리 |
+
+---
+
 ## 참여 작품
-더 문 [2023] | (Animator)  
+>더 문 [2023] | (Animator)  
 좀비버스 [2023] | (Mocap Artist)  
 유유백서(Netflix) [2023] | (Animator)  
 7인의 탈출 [2023] | (Animator, Mocap & Facial Artist)  
