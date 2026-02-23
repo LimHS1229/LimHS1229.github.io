@@ -1,7 +1,7 @@
-# 한 페이지로 보는, "About Me"
+## I AM...
 
 > *#**MotionCapture Artist** , #**Crowd Artist** , #**Animation TA** , #**Animation Pipeline*** , #**Animatior**
--  안녕하세요! 모션캡쳐 및 군중 시뮬레이션과, 3D 애니메이션 파트 전문 VFX 테크니컬 아티스트로 활동하고있습니다.
+-  안녕하세요! 모션캡쳐 및 군중 시뮬레이션과, 3D 애니메이션 파트 전문 VFX 테크니컬 아티스트로 활동하고있습니다.  
 Hello! I am work in MoCap Artist, Crowd Simulation artist, VFX pipeline TA and 3D animation TA .
 
 ## 주요 경력
@@ -36,6 +36,8 @@ Hello! I am work in MoCap Artist, Crowd Simulation artist, VFX pipeline TA and 3
 
 
 ### Main Stacks
+
+
 | Type | Tool | 비고 |
 |------|------|--------|
 | Animation & Crowd | Maya, Houdini, motionBuilder 등 |  |
@@ -43,25 +45,25 @@ Hello! I am work in MoCap Artist, Crowd Simulation artist, VFX pipeline TA and 3
 | TA |  Python, Linux bash 등 | mayaCmds, MEL, VEX 모듈 주력 |
 | other | GPT codex , gemini CLI, claude Code 등 AI agent 를 작업에 적극적으로 기용 | Local AI를 통한 파이프라인 관리 |
 ## 참여 작품
-- 더 문 [2023] | (Animator)
-- 좀비버스 [2023] | (Mocap Artist)
-- 유유백서(Netflix) [2023] | (Animator)
-- 7인의 탈출 [2023] | (Animator, Mocap & Facial Artist)
-- 경성크리처 S1 [2023] | (Animator, Mocap Artist)
-- 경성크리처 S2 [2024] | (Mocap Artist)
-- 기생수 : 더 그레이 [2024] (Animator)
-- 외계+인 2부 [2024] | (Mocap Artist)
-- 리니지W X 어쌔신크리드 시네마틱 [2024] | (Animator, Mocap & Facial Artist)
-- 지옥2 [2024] | (Mocap & Facial Artist) 
-- 조명가게 [2024] | (TA, Mocap Artist)
-- 이재, 곧 죽습니다 [2024] | (TA, Mocap Artist)
-- 귀궁 [2025] | (TA)
-- 북극성 [2025] | (TA, Crowd Artist)
-- 뱀피르 시네마틱 티저 : 절망 [2025] | (TA, Mocap & Facial Artist)
-- 사조영웅전 : 협지대자 [2025] | (TA, Mocap & Facial Artist, Crowd Artist)
-- 견우와 선녀 [2025] | (TA)
-- 경주 플래시백 : 계림 (미디어 아트) [2025] | (TA, Crowd Artist)
-- 월간남친 [2026] | (TA, Animator)
+###### 더 문 [2023] | (Animator)
+###### 좀비버스 [2023] | (Mocap Artist)
+###### 유유백서(Netflix) [2023] | (Animator)
+###### 7인의 탈출 [2023] | (Animator, Mocap & Facial Artist)
+###### 경성크리처 S1 [2023] | (Animator, Mocap Artist)
+###### 경성크리처 S2 [2024] | (Mocap Artist)
+###### 기생수 : 더 그레이 [2024] (Animator)
+###### 외계+인 2부 [2024] | (Mocap Artist)
+###### 리니지W X 어쌔신크리드 시네마틱 [2024] | (Animator, Mocap & Facial Artist)
+###### 지옥2 [2024] | (Mocap & Facial Artist) 
+###### 조명가게 [2024] | (TA, Mocap Artist)
+###### 이재, 곧 죽습니다 [2024] | (TA, Mocap Artist)
+###### 귀궁 [2025] | (TA)
+###### 북극성 [2025] | (TA, Crowd Artist)
+###### 뱀피르 시네마틱 티저 : 절망 [2025] | (TA, Mocap & Facial Artist)
+###### 사조영웅전 : 협지대자 [2025] | (TA, Mocap & Facial Artist, Crowd Artist)
+###### 견우와 선녀 [2025] | (TA)
+###### 경주 플래시백 : 계림 (미디어 아트) [2025] | (TA, Crowd Artist)
+###### 월간남친 [2026] | (TA, Animator)
 
 ## 학력
 - 청강문화산업대 애니메이션 전공
