@@ -78,3 +78,24 @@
     margin-left: .25rem;
   }
 }
+
+/* About Me > Experience section background */
+.experience-section {
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin: 8px 0 16px;
+}
+
+body.dark-mode .experience-section {
+  background: rgba(135, 206, 235, 0.18);
+}
+
+body:not(.dark-mode) .experience-section {
+  background: rgba(135, 206, 235, 0.14);
+}
+
+.experience-section > ul > li:first-child {
+  background: rgba(135, 206, 235, 0.28);
+  border-radius: 8px;
+  padding: 6px 8px;
+}

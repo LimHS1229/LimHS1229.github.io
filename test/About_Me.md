@@ -1,5 +1,5 @@
 ## I AM...
-
+---
 > *#**MotionCapture Artist** , #**Crowd Artist** , #**Animation TA** , #**Animation Pipeline*** , #**Animatior**
 -  안녕하세요! 모션캡쳐 및 군중 시뮬레이션과, 3D 애니메이션 파트 전문 VFX 테크니컬 아티스트로 활동하고있습니다.  
 Hello! I am work in MoCap Artist, Crowd Simulation artist, VFX pipeline TA and 3D animation TA .

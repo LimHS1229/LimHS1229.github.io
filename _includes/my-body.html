@@ -126,6 +126,50 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
   })();
 </script>
 
+<script>
+  (function () {
+    function markExperienceSection() {
+      if (!document.body) return;
+      if (document.querySelector(".experience-section")) return;
+
+      var headings = document.querySelectorAll("h2, h3");
+      var heading = null;
+
+      for (var i = 0; i < headings.length; i += 1) {
+        var text = (headings[i].textContent || "").toLowerCase();
+        if (text.indexOf("experience") > -1 || text.indexOf("경력") > -1) {
+          heading = headings[i];
+          break;
+        }
+      }
+
+      if (!heading || !heading.parentNode) return;
+
+      var wrapper = document.createElement("div");
+      wrapper.className = "experience-section";
+      heading.parentNode.insertBefore(wrapper, heading);
+
+      var node = heading;
+      while (node && node.tagName !== "HR") {
+        var next = node.nextSibling;
+        wrapper.appendChild(node);
+        node = next;
+      }
+    }
+
+    var pushStateEl = document.getElementById("_pushState");
+    if (pushStateEl) {
+      pushStateEl.addEventListener("hy-push-state-after", function () {
+        setTimeout(markExperienceSection, 50);
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(markExperienceSection, 50);
+    });
+  })();
+</script>
+
 {% comment %}
 <!--
 Example code for using Matamo as alternative analytics solution.
