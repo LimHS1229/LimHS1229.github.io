@@ -81,21 +81,46 @@
 
 /* About Me > Experience section background */
 .experience-section {
+  background: rgba(135, 206, 235, 0.28) !important;
+  border: 1px solid rgba(135, 206, 235, 0.55);
   border-radius: 12px;
   padding: 12px 14px;
   margin: 8px 0 16px;
 }
 
 body.dark-mode .experience-section {
-  background: rgba(135, 206, 235, 0.18);
+  background: rgba(135, 206, 235, 0.28) !important;
+  border-color: rgba(135, 206, 235, 0.65);
 }
 
 body:not(.dark-mode) .experience-section {
-  background: rgba(135, 206, 235, 0.14);
+  background: rgba(135, 206, 235, 0.28) !important;
 }
 
 .experience-section > ul > li:first-child {
   background: rgba(135, 206, 235, 0.28);
   border-radius: 8px;
   padding: 6px 8px;
+}
+
+/* Fallback: even if wrapper injection fails, color the visible Experience block */
+.layout-page .page h2[id*="경력"],
+.layout-page .page h2[id*="experience"] {
+  background: rgba(135, 206, 235, 0.28) !important;
+  border: 1px solid rgba(135, 206, 235, 0.55);
+  border-bottom: none;
+  border-radius: 12px 12px 0 0;
+  margin-bottom: 0;
+  padding: 10px 12px;
+}
+
+.layout-page .page h2[id*="경력"] + ul,
+.layout-page .page h2[id*="experience"] + ul {
+  background: rgba(135, 206, 235, 0.28) !important;
+  border: 1px solid rgba(135, 206, 235, 0.55);
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  padding: 10px 14px 12px 26px;
 }
