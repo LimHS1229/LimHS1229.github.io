@@ -19,7 +19,7 @@ permalink: /About_Me/
 
 <style>
   .aboutme-embed {
-    width: 100%;
+    width: 120%;
     margin: 1rem 0 0.5rem;
   }
   .aboutme-embed iframe {
