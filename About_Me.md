@@ -27,6 +27,6 @@ permalink: /About_Me/
     min-height: 85vh;
     border: 0;
     border-radius: 10px;
-    background: #fff;
+    background: #969696;
   }
 </style>
