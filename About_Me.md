@@ -25,7 +25,7 @@ permalink: /About_Me/
   }
   .aboutme-embed iframe {
     display: block;
-    width: 140%;
+    width: 100%;
     min-height: 85vh;
     border: 0;
     border-radius: 10px;
