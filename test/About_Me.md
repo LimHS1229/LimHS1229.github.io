@@ -1,79 +1,214 @@
 ## I AM...
 ---
-> *#**MotionCapture Artist** , #**Crowd Artist** , #**Animation TA** , #**Animation Pipeline*** , #**Animatior**
--  안녕하세요! 모션캡쳐 및 군중 시뮬레이션과, 3D 애니메이션 파트 전문 VFX 테크니컬 아티스트로 활동하고있습니다.  
-Hello! I am work in MoCap Artist, Crowd Simulation artist, VFX pipeline TA and 3D animation TA .
+<br/>
+<br/>
+안녕하세요! 모션캡쳐 및 군중 시뮬레이션과, 3D 애니메이션 파트 전문 VFX 테크니컬 아티스트로 활동하고있습니다.  
+<br/>
+Hello! I am work in MoCap Artist, Crowd Simulation artist, VFX pipeline TA and 3D animation Technical Animator.
 
 ---
+## Experience
 
-## 주요 경력
+- [Dexter Studios](https://dexterstudios.com/ko/)
+  - **MotionCapture Artist** | `2022. 12 - Present`
+  - <span style='background-color: #747474'> "자이로부터 광학식 모션캡쳐에, 메타휴먼을 이용한 페이셜 캡쳐까지! 애니메이터를 위한 다재다능한 오퍼레이터." </span>
+  -
+    <br/>
+    Xsens를 이용한 모션캡쳐로 시작하여, 현재는 광학식 모션캡쳐 Vicon Shogun 시스템을 주류로 사용합니다.
+    페이셜 캡쳐의 경우, Dynamixyz라는 페이셜 전용 카메라를 사용하여 얼굴에 직접 마커를 찍어가며 캡쳐하는 방식부터,
+    최근에는 아이폰을 이용하여 빠르게 데이터를 얻어낼 수 있는 메타휴먼 애니메이터 기능을 사용하여 페이셜 데이터를 얻어내는 작업을 합니다.
+    <br/>
+    
+    **[오퍼레이팅]**
+    언리얼 엔진의 라이브링크 시스템과 카메라 시퀀서를 함께 결합하여, 애니메이션 작업자가 모션캡쳐 시스템을 몰라도 촬영 상황을 직관적으로 볼 수 있도록 오퍼레이팅 시스템을 구축했습니다.
+    또한, 레퍼런스 및 상황 확인용으로 사용 가능한 촬영현장 녹화기능을 추가하여, 클린업부터 애니메이팅 작업까지에 있어 보다 정확하고 확실한 작업이 가능하도록 했습니다.
+    <br/>
+    페이셜 데이터의 경우, 메타휴먼 베이스의 페이셜 리그에 여러 프리셋을 저장하여, 페이셜 애니메이션이나 블렌드쉐잎 조합에 있어서 더욱 간편하게 표정을 만들 수 있도록 라이브러리를 구축했습니다.
+    <br/>
+    
+    **[데이터 관리]**
+    모션캡쳐는 특성상 데이터의 관리가 가장 중요하다고 생각했습니다. 이에 다른 모캡 아티스트들이 촬영 및 클린업 작업에만 신경 쓸 수 있도록
+    전체적인 데이터 임포트 & 익스포트 시스템을 구축하여 단계별/형식별로 파일을 저장하는 툴을 만들어 배포했습니다.
+    <br/>
+    또한 모션 데이터들을 수동으로 확인하고 임포트하는 과정에 있어, 데이터 자체가 정리되지 않아 찾아보기가 힘든 문제점이 있었습니다.
+    이에 MAYA상으로 모션캡쳐 라이브러리를 구축하여, 모캡 아티스트들은 태그를 붙여 데이터를 저장할 수 있도록하여
+    빠르고 편리하게 데이터를 저장 & 전달하는것이 가능해지도록 구축했습니다.
+    <br/>
+    애니메이터 역시 모션캡쳐 데이터를 보다 직관적으로 찾을 수 있도록, 해당 라이브러리에 프리뷰 기능을 추가한 뒤, 추가적인 폴더 서치없이 MAYA만으로 데이터를 임포트 가능하도록 파이프라인을 만들어 작업시간을 크게 단축시켰습니다.
+    <br/>
+    
+    **[그 외]**
+    소프트웨어 적인 부분 이외에도 직접 수트를 착용했을때의 불편한 점, 어떻게해야 마커가 간섭이 덜 되는지 등의 하드웨어 테스트 뿐만 아니라 실제로 액터 역할까지 수행해가며 작업했습니다.
+    <br/>
+    <br/>
+    <br/>
 
-- <img src="../assets/img/logos/dexter.png" width="80" height="32"> [Dexter Studios](https://dexterstudios.com/ko/)
-   - [ **2022. 12. 19** ~ 재직 ] | 제작 1부 애니메이션 2실 4팀 : 모션캡쳐, 군중 및 애니메이션 전반 기술작업 담당
+- [Dexter Studios](https://dexterstudios.com/ko/)
+  - **3D Animator** | `2022. 12 - Present`
+  - <span style='background-color: #747474'> "모션캡쳐 촬영부터 애니메이션의 완성까지, 복잡하게 여러사람 거치지 않고 한 번에." </span>
+  -
+    **[Animation]**
+    프랍과 같은 키 애니메이션부터, 모션캡쳐를 통한 클린업 뿐만 아니라 해당 데이터가 카메라에 어떻게 비춰지고, 어떻게 움직여야 내가 원하는 타이밍대로 움직이는지는 데이터 작업자가 가장 잘 알고있습니다.
+    이에 모션캡쳐 기반 애니메이션 작업을 통해, 애니메이션 작업자로서의 역량도 키워왔습니다.
+    <br/>
+    
+    직접 애니메이션 샷 작업까지 완료하고 나서, 작업자의 입장에서 모션캡쳐 데이터를 어떻게 가공해나가는지 이해하고, 이후 전체적인 모션캡쳐부터 애니메이션까지 이어지는 파이프라인 구축에 큰 경험이 되었습니다.
+    <br/>
+    
+    역으로, 애니메이션 작업에 익숙해지고 난 뒤 모션캡쳐 데이터를 다시 클린업하기 시작하니, 전체 데이터에서 어느부분이 핵심부분이고,
+    어느 부분이 버려도 되는 데이터인지 판단하는 시각을 기르는데에 큰 도움이 되었습니다.
+    <br/>
+    또한, 내가 만들어야하는 애니메이션을 직접 액팅하는데에 있어서, 모션캡쳐 시간소요에 있어서도 크게 단축되는 부분이 있어,
+    애니메이션 작업과 모션캡쳐 작업이 서로 상호작용을 이루어 긍정적인 시너지를 이뤄나가는 것을 몸소 느끼는 작업이었습니다.
+    <br/>
+    <br/>
+    <br/>
 
-- <img src="../assets/img/logos/Digital_Hearts.png" width="43" height="32"> [Digital Hearts (일본)](https://www.digitalhearts-hd.com/)
-   - [ **2019. 08 ~ 2020. 06** ]   |  한국어 로컬라이징 LQA 및 게임플레이 FQA 담당, 일본
+- [Dexter Studios](https://dexterstudios.com/ko/)
+  - **Crowd Artist** | `2023. 12 - Present`
+  - <span style='background-color: #747474'> "군중 상황에 따른 모션을 적절히 블렌딩해 배경과 자연스럽게 동화되도록." </span>
+  -
+    **[Crowd Artist]**
+    MAYA Golaem을 통한 군중작업에는 한계가 있어서, Houdini 기반의 군중작업으로 파이프라인을 변경해야한다는 소식을 듣고, Houdini Agent를 통한 군중시뮬레이션 작업을 배워서 시작했습니다.
+    군중작업에 필요한 툴들을 제작하고, 새로운 파이프라인에 적응 할 수 있도록 가이드를 올려 작업자들이 쉽게 적응할 수 있도록 도왔습니다.
+    <br/>
+    
+    작업에 있어서는 군중들이 그저 일정하게 행동하는것이 아닌, 서로간의 인터랙션이나, 물체와의 간섭 등에도 반응하여, 자연스러운 샷이 나올 수 있도록 시뮬레이션 했습니다.
+    또한, 군중의 타입이 좀비와 같은 크리쳐의 경우나, 샷의 상황에 따라 다른 움직임을 할 수 있도록 하는 시뮬레이션도 가능합니다.
+    <br/>
+    
+    추가로 땅의 영향을 받지 않는 날벌레나 물고기 등의 작업에 있어, 환경 (바람, 수중 등) 의 변화에 따른 군체들의 변화도 나타낼 수 있습니다.
+    이 과정에 있어서 군중작업이 단순하게 레이아웃을 구성하는 작업 뿐만아니라, 환경이나 상황 등을 고려하여 시청자들에게 현재의 상황을 한눈에 확실하게 전달할 수 있는 분위기 메이커의 역할을 한다는 것을 알게되었습니다.
+    <br/>
+    <br/>
+    <br/>
+
+- [Dexter Studios](https://dexterstudios.com/ko/)
+  - **Technical 3D Animatior & VFX Pipeline TA** | `2023. 12 - Present`
+  - <span style='background-color: #747474'> "애니메이션 작업을 위한 모든 과정을 하나의 파이프라인을 통해 깔끔하게, 유저가 사용하기 편하도록 관리" </span>
+  -
+    <br/>
+    **[Animation pipeline TA]**
+    상기에 소개드린 과정들을 통해 회사에서 인정받아, 입사 9개월정도에 TA로의 전환을 제안받았습니다.
+    <br/>
+    일반적인 아티스트의 역할에 더해 TA작업까지 하게 되어, 다른 파이프라인 기술자들보다 아티스트의 입장에서 먼저 생각하여 기술지원을 했습니다.
+    애니메이션 전후반 파트에서 데이터가 어떻게 전달되는가, 타 부서간의 작업중 어떤 이슈들이 자주 생기는가를 체크하여 작업하니, 일반적인 오류 및 타 부서 아티스트들 간의 체크 요청이 눈에띄게 줄어들었습니다.
+    <br/>
+    또, 애니메이터들이 작업에있어 어떤 고충이 있는지 직접 알고있기에 효율적인 툴들을 굉장히 많이 만들어서 배포했습니다.
+    <br/>
+    대표적으로 USD 라는 포맷의 캐시아웃 방식을 사용하고있었는데, 사내에서 사용하는 툴들은 굉장히 오래된 방법을 통해 데이터를 관리하고 있고, 기술자들도 없어서 문제가 많이 발생하고 있었습니다.
+    저는 사내 툴을 이용해 캐시아웃되는 데이터들이 어떤방식으로 관리되고 나누어지는지를 확인하고, 그 과정에서 생기는 오류들을 문서로 정리해, 작업자들에게 이슈를 받을 경우 빠르게 해결할 수 있도록 했습니다.
+    <br/>
+    또한, 애니메이션 & 모션캡쳐 데이터 파이프라인은 기본이고, 샷의 프리뷰 관련 UI개선이나, 타 팀에서 발생한 문제 해결 등, 점점 범위를 파이프라인 전반으로 넓혀가며 전체적인 흐름을 파악해나갔습니다.
+    <br/>
+    이 과정에서 Python, Bash등의 컴퓨터 언어는 물론, HoudiniVEX, openMaya같은 DCC 모듈 뿐만 아니라, MongoDB, JsonRulebook 등과 같은 데이터베이스를 공부하기도 했고, Nuke와 같은 합성 툴들도 거쳐가며
+    새로 마주치는 분야도 두려워하기보단 직접 부딪혀가며 해결방법을 찾고, 새로 배워나가는 과정에서 큰 즐거움을 느꼈습니다.
+    <br/>
+    최근에는 AI를 파이프라인에 도입하려하는 시도를 하고있습니다. 보안관련상 많은분들이 사용중인 GPT나 Gemini는 사용을 못하고, 로컬에서 ollama라는 플랫폼을 구동하여 서버를 구축하고, 모델을 구동시키는
+    작업을 연구중에 있습니다.
+    <br/>
+    목표는 작업자들이 작업중 검색해야할 파일이 있거나, 에러코드를 보고 어떤 문제가 발생했는지 확인하거나, 미처 확인못한 업데이트가 있는 경우에 연락을 보내거나 하는 기능이 있는 사내 챗봇을 만드는것이 목표입니다.
+    <br/>
+    <br/>
+    <br/>
+
+- [Digital Hearts (JAPAN)](https://www.digitalhearts-hd.com/)
+  - **Korean translate LQA & Gameplay FQA** | `2019. 08 - 2020. 06`
+  - <span style='background-color: #747474'> "플레이어가 원하는 방향의 번역을, 개발자가 원하는 방향의 버그 피드백을" </span>
+  -
+    **[LQA]**
+    게임 "그랑블루 판타지 버서스", "이스 9", "파이널 판타지 7 리메이크", "페르소나 5" 등의 콘솔게임들의 LQA 작업을 맡았습니다.
+    개발단계에서의 번역은 일반적인 직독직해 수준의 번역이었기에, 해당 게임의 용어나 게임 커뮤니티에서의 용어들을 적극 반영하여
+    게이머들이 손쉽게 이해가 가능하도록, 읽는 과정에서 원어와의 충돌이 느껴지지 않도록 신경썼습니다.
+    
+    예를들어, 격투게임 분야의 "그랑블루 판타지 버서스" 와 같은 작품은, 일본 격투게임 커뮤니티의 용어 그대로 "던지기" 로 번역되어있는 사항을
+    한국 게이머들이 이해하기 쉽도록 "잡기" 라는 번안을 요청드렸던것이 반영되어 릴리즈되었습니다.
+    
+    또, "로아인" 이라는 캐릭터의 성격상, 일본판 캐릭터의 대사가 인터넷 커뮤니티의 원본의 말투를 나타내고 있었으나, 받아본 대사 원안은 일반적인 대화체를
+    사용하고 있었어서, 비교적 유명하고 수위가 낮은 "가즈아", "~~하는 각", "뇌절", "쩐다" 등과 같은 대사로 대체하여 호평을 받아냈습니다.
+    <br/>
+    <br/>
+    **[FQA]**
+    게임 "그랑블루 판타지 버서스", "이스 9" 등의 경우, LQA 및 FQA 작업도 함께 진행하며, 플레이 도중 일어나는 여러 버그들을 찾았습니다.
+    다만 일반적인 버그리포트에 올라오는 사항들이 작업자가 구현하기 어렵거나, 예측하기 어려운 경우가 있었습니다.
+    
+    예시로, 플레이도중 특정 조건을 만족하면 무기 메쉬의 텍스쳐가 없어지는 버그가 있었는데, 다른 테스터가 "무기가 빛난다" 는 식으로 보고를 올렸어서,
+    해당 이슈와 관련하여 텍스쳐가 날아가서 흰색으로 변하고, 라이팅의 특성상 무기가 빛나는것처럼 보인다 는 조금 더 자세한식의 보고를 올려
+    작업자분이 보다 이해하기 편하도록 도왔습니다.
+    <br/>
+    <br/>
+
 
 ---
-##  핵심 역량
-
-**모션캡쳐 아티스트 (Motion Capture Artist)**
-  -  Vicon, Xsens 등을 통한 전반적인 모션캡쳐 오퍼레이팅
-  -  motionBuilder, vicon 을 통한 데이터 클린업
-  - Unreal livelink 를 통한 실시간 프리뷰
-  - Meta Human을 통한 페이셜 데이터 캡쳐
-  - 사용자가 사용하기 편리하도록 모션 데이터를 FBX, anim, .mb 등의 형식으로 나누어 관리
-
-**군중 시뮬레이션 아티스트 (Crowd Simulation Artist)**
-  - Houdini의 Agent 시스템을 이용한 군중 시뮬레이션
-  - 단순한 배치를 넘어, 물체 간의 간섭이나 군중 에이전트 간의 상호작용까지
-
-**애니메이션 TA (animation Technical Artist)**
-  - Python, bash 등을 통한 전반적인 애니메이션 파트 전후 파이프라인 관리
-  - MayaCmds, MayaMEL, HoudiniVEX 등을 이용, 작업자에게 필요한 반복적 혹은 복잡한 과정을 툴을 만들어 자동화
-  - 그 외 애니메이션, 리깅, 라이팅 작업자들 간의 기술적 문제 발생시 조율 및 해결
-
-**3D 애니메이터 (3D Animatior)**
-  - 모션캡쳐 데이터를 에디팅해, 주어진 상황이나 카메라 등에 맞춰 애니메이션 제작
-  - 키 애니메이션을 통해, 인간 외의 생물이나 기계 등의 애니메이션 제작
-
----
-
 ## Main Stacks
 
-| Type | Tool | 비고 |
-|:------|:------:|:--------|
-| Animation & Crowd | **Maya**, Houdini, motionBuilder 등 |  |
-| Motion Capture | Vicon shogun, Xsens, UnrealEngine, DynamicXYZ 등 | 페이셜에 UE메타휴먼, Dxyz 사용 |
-| TA |  Python, Linux bash 등 | mayaCmds, MEL, VEX 모듈 주력 |
-| other | GPT codex , gemini CLI, claude Code 등 AI agent 를 작업에 적극적으로 기용 | Local AI를 통한 파이프라인 관리 |
+- Motion Capture
+  -
+    ![USING TOOLS](.\images\MocapTools.png "mocap")
+    
+    vicon SHOGUN / Unreal Engine5 / Xsens / METAHUMAN Animator / Dynamixyz
+
+- Animation & Crowd Simulation
+  -
+    ![USING TOOLS](.\images\animation.png "AniCrowd")
+    
+    MAYA (+ PyMEL, mayaCmds, openMaya) / Motion Builder / Houdini (+ houdiniVEX)
+
+- Pipeline TA & Technical Animatior
+  -
+    ![USING TOOLS](.\images\TAroll.png "TA")
+    
+    VScode / Python / Qt / Git
+      <br/>
+      <br/>
+
 
 ---
+## Projects
 
-## 참여 작품
->더 문 [2023] | (Animator)  
-좀비버스 [2023] | (Mocap Artist)  
-유유백서(Netflix) [2023] | (Animator)  
-7인의 탈출 [2023] | (Animator, Mocap & Facial Artist)  
-경성크리처 S1 [2023] | (Animator, Mocap Artist)  
-경성크리처 S2 [2024] | (Mocap Artist)  
-기생수 : 더 그레이 [2024] (Animator)  
-외계+인 2부 [2024] | (Mocap Artist)  
-리니지W X 어쌔신크리드 시네마틱 [2024] | (Animator, Mocap & Facial Artist)  
-지옥2 [2024] | (Mocap & Facial Artist)   
-조명가게 [2024] | (TA, Mocap Artist)  
-이재, 곧 죽습니다 [2024] | (TA, Mocap Artist)  
-귀궁 [2025] | (TA)  
-북극성 [2025] | (TA, Crowd Artist)  
-뱀피르 시네마틱 티저 : 절망 [2025] | (TA, Mocap & Facial Artist)  
-사조영웅전 : 협지대자 [2025] | (TA, Mocap & Facial Artist, Crowd Artist)  
-견우와 선녀 [2025] | (TA)  
-경주 플래시백 : 계림 (미디어 아트) [2025] | (TA, Crowd Artist)  
-월간남친 [2026] | (TA, Animator)  
+- Super awesome project
+  - 지금까지 작업한 프로젝트들 입니다.
+  -
+    더 문 [2023]   |   (Animator)
+    좀비버스 [2023]   |   (Mocap Artist)
+    유유백서(Netflix) [2023]   |   (Animator)
+    7인의 탈출 [2023]   |   (Animator, Mocap & Facial Artist)
+    경성크리처 S1 [2023]   |   (Animator, Mocap Artist)
+    경성크리처 S2 [2024]   |   (Mocap Artist)
+    기생수 : 더 그레이 [2024]   |   (Animator)
+    외계+인 2부 [2024]   |   (Mocap Artist)
+    리니지W X 어쌔신크리드 시네마틱 [2024]   |   (Animator, Mocap & Facial Artist)
+    지옥2 [2024]   |   (Mocap & Facial Artist)
+    조명가게 [2024]   |   (TA, Mocap Artist)
+    이재, 곧 죽습니다 [2024]   |   (TA, Mocap Artist)
+    귀궁 [2025]   |   (TA)
+    북극성 [2025]   |   (TA, Crowd Artist)
+    뱀피르 시네마틱 티저 : 절망 [2025]   |   (TA, Mocap & Facial Artist)
+    사조영웅전 : 협지대자 [2025]   |   (TA, Mocap & Facial Artist, Crowd Artist)
+    견우와 선녀 [2025]   |   (TA)
+    경주 플래시백 : 계림 (미디어 아트) [2025]   |   (TA, Crowd Artist)
+    월간남친 [2026]   |   (TA, Animator)
+    원더풀스 [2026 예정]   |   (TA, Crowd Artist)
+    군체 [2026 예정]   |   (TA, Animator, Mocap Artist)
+
 
 ---
-## 학력
-- 청강문화산업대 애니메이션 전공
-  - [ 2016 ~ 2022 ]
-- 월봉고등학교
-  - [ 2012 ~ 2015 ]
+## Education
+
+- Chungkang collage
+  - **Animation** | `2016 - 2022`
+  -
+    "꼬끼오 유니버스" 라는 VR작품을 통해, 학생때부터 새로운 도전을 즐겨왔습니다.
+    Maya 뿐만아니라 Blender, Unity 등 다른 툴들도 애니메이션에 사용될 수 있다는 걸 알게 되었습니다.
+    해당 작품은 제게 모션캡쳐와 HumanIK를 만나게 해준 계기가 된 작품입니다.
+
+
+---
+## A Little More About Me
+
+이런 기록과 취미도 있어요! :
+- JLPT N2
+- TEKKEN 8 evo japan 2024 in 49th (out of 1247)
+- TEKKEN 8 evo japan 2025 in 129th (out of 982)
+- TEKKEN 7 evo japan 2023 in 129th (out of 1401)
+- Electric Guitar Player
