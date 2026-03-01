@@ -2,6 +2,8 @@
 layout: page
 title: About Me
 permalink: /About_Me/
+redirect_to: https://limhs1229.github.io/AboutmeLHS.github.io/
 ---
 
-{% include_relative test/About_Me.md %}
+If you are not redirected automatically, open:
+[About Me](https://limhs1229.github.io/AboutmeLHS.github.io/)
