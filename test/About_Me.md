@@ -144,19 +144,19 @@ Hello! I am work in MoCap Artist, Crowd Simulation artist, VFX pipeline TA and 3
 
 - Motion Capture
   -
-    ![USING TOOLS](/images/MocapTools.png "mocap")
+    ![USING TOOLS](.\images\MocapTools.png "mocap")
     
     vicon SHOGUN / Unreal Engine5 / Xsens / METAHUMAN Animator / Dynamixyz
 
 - Animation & Crowd Simulation
   -
-    ![USING TOOLS](/images/animation.png "AniCrowd")
+    ![USING TOOLS](.\images\animation.png "AniCrowd")
     
     MAYA (+ PyMEL, mayaCmds, openMaya) / Motion Builder / Houdini (+ houdiniVEX)
 
 - Pipeline TA & Technical Animatior
   -
-    ![USING TOOLS](/images/TAroll.png "TA")
+    ![USING TOOLS](.\images\TAroll.png "TA")
     
     VScode / Python / Qt / Git
       <br/>
