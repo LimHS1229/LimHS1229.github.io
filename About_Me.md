@@ -18,6 +18,13 @@ permalink: /About_Me/
 </p>
 
 <style>
+  body {
+    background: #f2f2f2;
+  }
+  main,
+  .page-content {
+    background: #f2f2f2;
+  }
   .aboutme-embed {
     width: 140%;
     margin: 1rem 0 0.5rem;
@@ -27,6 +34,6 @@ permalink: /About_Me/
     min-height: 85vh;
     border: 0;
     border-radius: 10px;
-    background: #969696;
+    background: #f2f2f2;
   }
 </style>
