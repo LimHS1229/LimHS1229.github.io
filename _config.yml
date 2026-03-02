@@ -54,15 +54,19 @@ author:
 menu:
   - title:             "About Me"
     url:               /About_Me/
-
-  - title:             "Motion Capture Artist"
+    submenu:
+      - title:         "Demo Reels"
+        url:           /mocapclean/
+  - title:             "Motion Capture & Animation"
     url:               /example/
     submenu:
       - title:         "Mocap Cleaning"
         url:           /mocapclean/
-      - title:         "test"
+      - title:         "Acting"
         url:           /test/
-        
+      - title:         "Animation"
+        url:           /test/
+
   - title:             "Crowd Artist"
     url:               /docs/
     submenu:
@@ -75,6 +79,8 @@ menu:
     url:               /about/
     submenu:    
      - title:          "Maya Python"
+       url:            /MayaPython/
+     - title:          "Houdini Python"
        url:            /MayaPython/
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..

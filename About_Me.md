@@ -13,7 +13,7 @@ permalink: /About_Me/
 </div>
 
 <p>
-  If the embedded page does not load, open
+  페이지가 보이지 않는다면, 링크를 클릭해주세요.
   <a href="/AboutmeLHS.github.io/">About Me</a>.
 </p>
 
@@ -57,6 +57,7 @@ permalink: /About_Me/
     background: #f2f2f2;
   }
   .aboutme-recent-posts {
+    width: 140%;
     margin: 1.5rem 0 0.5rem;
     padding: 1rem 1.1rem;
     border-radius: 10px;
