@@ -61,10 +61,10 @@ menu:
   - title:             "Motion Capture & Animation"
     url:               /example/
     submenu:
-      - title:         "Mocap Cleaning"
-        url:           /mocapclean/
       - title:         "Mocap Acting"
         url:           /Action/
+      - title:         "Mocap Cleaning"
+        url:           /MocapAniMain/
       - title:         "Animation"
         url:           /Animation/
 
