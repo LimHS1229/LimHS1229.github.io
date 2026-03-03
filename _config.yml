@@ -61,7 +61,7 @@ menu:
   - title:             "Motion Capture & Animation"
     url:               /MocapAniMain/
     submenu:
-      - title:         "Mocap Acting"
+      - title:         "Mocap Operating & Acting"
         url:           /Action/
       - title:         "Mocap Cleaning"
         url:           /Mocapclean/
