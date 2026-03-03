@@ -59,12 +59,12 @@ menu:
         url:           /demoReel/
 
   - title:             "Motion Capture & Animation"
-    url:               /example/
+    url:               /MocapAniMain/
     submenu:
       - title:         "Mocap Acting"
         url:           /Action/
       - title:         "Mocap Cleaning"
-        url:           /MocapAniMain/
+        url:           /Mocapclean/
       - title:         "Animation"
         url:           /Animation/
 
