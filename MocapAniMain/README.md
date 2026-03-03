@@ -3,7 +3,7 @@
 
 >모션캡쳐에 사용한 프로그램 소개 
 
-1. Vicon Shogun Live & Post
+- Vicon Shogun Live & Post
 
 <img src="../assets/img/images/ViconCapture.png" width="600" height="330" />  
 
@@ -14,7 +14,7 @@
 
 카메라의 갯수가 많을수록 고품질의 데이터를 얻을 수 있다는 장점이 있습니다.
 
-2. Xsens  
+- Xsens  
 
 <img src="../assets/img/images/Xsens.png" width="600" height="330" />  
 
@@ -24,7 +24,7 @@
 야외촬영 및, 세트장과 같은 다른 공간에서의 상호작용에 용이하다는 장점이 있습니다. 
 <br/>
 
-3. Unreal Engine5 LiveLink  
+- Unreal Engine5 LiveLink  
 
 <img src="../assets/img/images/UE5.png" width="600" height="330" />  
 
@@ -36,14 +36,14 @@
 계획 및 디렉팅에도 용이합니다. 
 <br/>
 
-4. Motion Builder
+- Motion Builder
 <br/>
 
 모션빌더 역시 프리뷰를 위해 사용될 수 있습니다. 또한, Xsens 와 같은 FBX데이터의 처리에 있어,  
  HumanIK시스템으로 컨트롤러를 일시적으로 부여해준 후 클린업 작업까지 수행합니다.
 <br/>
 
-5. Maya  
+- Maya  
 
 <img src="../assets/img/images/Maya.png" width="600" height="520" />  
 <br/>
@@ -58,12 +58,12 @@ FBX, anim의 형태로 컨버팅하여 애니메이터가 사용하기 편하게
 
 # Facial Capture
 
-1. Metahuman Animator
+- Metahuman Animator
 
 메타휴먼 애니메이터를 통해 iPhone 동영상을 촬영, 고품질의 페이셜 데이터를 얻을 수 있습니다.  
 메타휴먼 페이셜 리그에 직접 집어넣고, 애니메이터가 사용하기 용이하도록 전달합니다.
 
-2. Dynamixyz
+- Dynamixyz
 
 Depth 촬영 기능이 있는 카메라를 헤드마운트에 얹어서 촬영하는 방식입니다.  
 직접 매치메이션을 해주고, 얼굴의 마커를 인식시켜준 뒤 값을 가져옵니다.  
@@ -71,7 +71,7 @@ iPhone보다 가볍다는 장점이 있지만, 사전작업이 까다로운 편�
 
 # Animation
 
-1. 라이브러리를 통한 Mocap 데이터 추출
+- 라이브러리를 통한 Mocap 데이터 추출
 
 <img src="../assets/img/images/mocapLib.png" width="600" height="320" />
 <br/>  
