@@ -4,21 +4,40 @@ title: Action
 permalink: /Action/
 ---
 
-## Action Posts
-
 {% assign action_posts = site.posts | where_exp: "post", "post.path contains 'Action/_posts/'" | sort: "date" | reverse %}
 
 {% if action_posts.size > 0 %}
 {% for post in action_posts %}
-- [{{ post.title | default: post.slug }}]({{ post.url | relative_url }}) - {{ post.date | date: "%Y-%m-%d" }}
+<article id="post-{{ post.slug | default: post.title | slugify }}" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="{{ post.url | relative_url }}" class="flip-title">
+        {{ post.title | default: post.slug }}
+      </a>
+    </h1>
+
+    <div class="post-date">
+      <span class="ellipsis mr1">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+      </span>
+    </div>
+
+    {% if post.description %}
+    <p class="note-sm">
+      {{ post.description }}
+    </p>
+    {% endif %}
+  </header>
+
+  {{ post.excerpt }}
+
+  <footer>
+    <p class="read-more">
+      Continue reading <a class="heading flip-title" href="{{ post.url | relative_url }}">{{ post.title | default: post.slug }}</a>
+    </p>
+  </footer>
+</article>
 {% endfor %}
 {% else %}
-{% assign action_pages = site.pages | where_exp: "page", "page.path contains 'Action/_posts/'" | sort: "path" | reverse %}
-{% if action_pages.size > 0 %}
-{% for page in action_pages %}
-- [{{ page.title | default: page.name }}]({{ page.url | relative_url }})
-{% endfor %}
-{% else %}
-- No posts found in `Action/_posts`.
-{% endif %}
+No posts found in `Action/_posts`.
 {% endif %}
