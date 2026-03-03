@@ -6,8 +6,9 @@ description: >
 image: 
   path: ../assets/img/images/fingerRND.jpg
   srcset: 
-    1920w: ../../assets/img/images/fingerRND.jpg
-
+    1920w: /assets/img/images/fingerRND.jpg
+    960w:  /assets/img/images/fingerRND.jpg
+    480w:  /assets/img/images/fingerRND.jpg
 accent_image: ../assets/img/images/ViconMain.jpg
 excerpt_separator: <!--more-->
 sitemap: false
