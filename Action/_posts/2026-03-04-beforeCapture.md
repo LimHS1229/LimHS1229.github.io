@@ -4,12 +4,12 @@ categories: [mocapclean]
 description: > 
   손가락 모션캡쳐를 더욱 깔끔히 촬영하기 위해, 마커가 잘 찍히면서도 액터가 주먹쥐는 액션에 위화감을 느끼지 않도록, 직접 여러방법을 통해 테스트해보는 과정입니다.
 image: 
-  path: ../assets/img/images/fingerRND.jpg
+  path: /assets/img/images/fingerRND.jpg
   srcset: 
     1920w: /assets/img/images/fingerRND.jpg
     960w:  /assets/img/images/fingerRND.jpg
     480w:  /assets/img/images/fingerRND.jpg
-accent_image: ../assets/img/images/ViconMain.jpg
+accent_image: /assets/img/images/ViconMain.jpg
 excerpt_separator: <!--more-->
 sitemap: false
 ---
