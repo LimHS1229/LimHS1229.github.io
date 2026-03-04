@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: [mocapclean]
+permalink: /mocapclean/2026-03-03-mocap-pipeline/
 description: > 
   모션캡쳐 데이터는 키 애니메이션과 달리, 과장된 액션 없이 촬영 당시 액터의 상황을 최대한 보존/전달할 수 있도록 초점을 맞춰서 데이터를 클린업합니다. 
 image: 

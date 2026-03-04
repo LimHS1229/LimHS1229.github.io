@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Action
+title: Mocap Operation & Action
 permalink: /Action/
 ---
 
@@ -21,6 +21,19 @@ permalink: /Action/
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
       </span>
     </div>
+
+    {% if post.image and post.image.path %}
+    <a href="{{ post.url | relative_url }}" class="no-hover no-print-link flip-project" tabindex="-1">
+      <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+        <img
+          src="{{ post.image.path | relative_url }}"
+          {% if post.image.srcset %}srcset="{% for item in post.image.srcset %}{{ item[1] | relative_url }} {{ item[0] }}{% unless forloop.last %},{% endunless %}{% endfor %}"{% endif %}
+          alt="{{ post.title | default: post.slug }}"
+          loading="lazy"
+        />
+      </div>
+    </a>
+    {% endif %}
 
     {% if post.description %}
     <p class="note-sm">
