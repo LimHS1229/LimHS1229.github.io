@@ -4,7 +4,7 @@ title: MocapClean
 permalink: /mocapcleanup/
 ---
 
-{% assign mocap_posts = site.posts | where_exp: "post", "post.path contains 'mocapcleanup/_posts/'" | sort: "date" | reverse %}
+{% assign mocap_posts = site.posts | where_exp: "post", "post.categories contains 'mocapcleanup'" | sort: "date" | reverse %}
 
 {% if mocap_posts.size > 0 %}
 {% for post in mocap_posts %}
