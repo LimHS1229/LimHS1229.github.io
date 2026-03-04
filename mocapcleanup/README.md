@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MocapClean
-permalink: /mocapclean/
+permalink: /mocapcleanup/
 ---
 
 {% assign mocap_posts = site.posts | where_exp: "post", "post.path contains 'mocapcleanup/_posts/'" | sort: "date" | reverse %}
@@ -52,5 +52,5 @@ permalink: /mocapclean/
 </article>
 {% endfor %}
 {% else %}
-No posts found in `mocapclean/_posts`.
+No posts found in `mocapcleanup/_posts`.
 {% endif %}

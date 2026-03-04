@@ -51,7 +51,7 @@
 FBX, anim의 형태로 컨버팅하여 애니메이터가 사용하기 편하게 전달합니다.
 
 ---
-상기한 일련의 과정들을 팀원들과 함께 고찰하여, 가장 사용하기 편리한 형태의 [클린업 파이프라인](https://limhs1229.github.io/mocapclean/mocap/2026-03-03-Mocap_Pipeline/)을 완성했습니다.
+상기한 일련의 과정들을 팀원들과 함께 고찰하여, 가장 사용하기 편리한 형태의 [클린업 파이프라인](https://limhs1229.github.io/mocapcleanup/2026-03-03-mocap-pipeline/)을 완성했습니다.
 
 또한, [액팅 및 오퍼레이팅 과정에서부터 어떻게하면 깔끔하고 좋은 데이터를 얻을 수 있을지](https://limhs1229.github.io/action/mocapclean/2026-03-04-beforeCapture/) 고민했습니다.
 <br/>
