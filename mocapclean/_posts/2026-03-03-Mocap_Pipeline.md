@@ -1,14 +1,14 @@
 ---
 layout: post
-categories: [mocap]
+categories: [mocapclean]
 description: > 
   모션캡쳐 데이터는 키 애니메이션과 달리, 과장된 액션 없이 촬영 당시 액터의 상황을 최대한 보존/전달할 수 있도록 초점을 맞춰서 데이터를 클린업합니다. 
 image: 
-  path: /assets/img/images/fingerRND.jpg
+  path: /assets/img/images/hs005.png
   srcset: 
-    1920w: /assets/img/images/fingerRND.jpg
-    960w:  /assets/img/images/fingerRND.jpg
-    480w:  /assets/img/images/fingerRND.jpg
+    1920w: /assets/img/images/hs005.png
+    960w:  /assets/img/images/hs005.png
+    480w:  /assets/img/images/hs005.png
 accent_image: /assets/img/images/ViconMain.jpg
 excerpt_separator: <!--more-->
 sitemap: false
@@ -16,7 +16,6 @@ sitemap: false
 
 # CleanUp Pipeline
 ## Vicon에서의 클린업
-![바이콘](../../assets/img/images/hs005.png)
 
 Vicon Shogun Post에서 그래프를 깔끔하게 정리해줍니다.
 이 과정에 있어서 가장 신경쓰는건,   
@@ -29,12 +28,12 @@ Vicon Shogun Post에서 그래프를 깔끔하게 정리해줍니다.
 ---
 ## FBX 데이터의 리타겟
 
-![MCP](../../assets/img/images/MCPtool.png)
+![MCP](/assets/img/images/MCPtool.png)
 
 Vicon 에서의 클린업이 완료되면, FBX의 데이터를 maya로 가져옵니다.
 (Xsens의 경우에는 MotionBuilder를 사용합니다.)
 
-![MCP](../../assets/img/images/MCP_LIGHT.gif)
+![MCP](/assets/img/images/MCP_LIGHT.gif)
 
 위 툴은, 클린업 작업자들이 클린업에만 집중하고, maya 에서부터는 모션캡쳐 파이프라인을 자연스럽게 따라갈 수 있도록 순차적으로 버튼을 누르면
 
