@@ -4,10 +4,10 @@ title: MocapClean
 permalink: /mocapclean/
 ---
 
-{% assign action_posts = site.posts | where_exp: "post", "post.path contains 'Action/_posts/'" | sort: "date" | reverse %}
+{% assign mocap_posts = site.posts | where_exp: "post", "post.path contains 'mocapclean/_posts/'" | sort: "date" | reverse %}
 
-{% if action_posts.size > 0 %}
-{% for post in action_posts %}
+{% if mocap_posts.size > 0 %}
+{% for post in mocap_posts %}
 <article id="post-{{ post.slug | default: post.title | slugify }}" class="page post mb6" role="article">
   <header>
     <h1 class="post-title flip-project-title">
@@ -39,5 +39,5 @@ permalink: /mocapclean/
 </article>
 {% endfor %}
 {% else %}
-No posts found in `Action/_posts`.
+No posts found in `mocapclean/_posts`.
 {% endif %}

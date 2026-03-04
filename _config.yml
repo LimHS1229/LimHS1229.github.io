@@ -64,7 +64,7 @@ menu:
       - title:         "Mocap Operating & Acting"
         url:           /Action/
       - title:         "Mocap Cleaning"
-        url:           /Mocapclean/
+        url:           /mocapclean/
       - title:         "Animation"
         url:           /Animation/
 
