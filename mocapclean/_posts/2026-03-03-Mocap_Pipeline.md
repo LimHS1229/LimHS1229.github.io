@@ -34,7 +34,7 @@ Vicon Shogun Post에서 그래프를 깔끔하게 정리해줍니다.
 Vicon 에서의 클린업이 완료되면, FBX의 데이터를 maya로 가져옵니다.
 (Xsens의 경우에는 MotionBuilder를 사용합니다.)
 
-![MCP](../../assets/img/images/MCP.gif)
+![MCP](../../assets/img/images/MCP_LIGHT.gif)
 
 위 툴은, 클린업 작업자들이 클린업에만 집중하고, maya 에서부터는 모션캡쳐 파이프라인을 자연스럽게 따라갈 수 있도록 순차적으로 버튼을 누르면
 
