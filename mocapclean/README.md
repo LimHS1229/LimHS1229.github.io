@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Action
-permalink: /Action/
+title: MocapClean
+permalink: /mocapclean/
 ---
 
 {% assign action_posts = site.posts | where_exp: "post", "post.path contains 'Action/_posts/'" | sort: "date" | reverse %}
