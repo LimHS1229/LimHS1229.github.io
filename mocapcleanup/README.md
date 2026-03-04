@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MocapClean
-permalink: /mocapcleanup/
+permalink: /mocapclean/
 ---
 
 {% assign mocap_posts = site.posts | where_exp: "post", "post.path contains 'mocapclean/_posts/'" | sort: "date" | reverse %}
