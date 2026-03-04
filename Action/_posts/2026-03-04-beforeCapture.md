@@ -1,6 +1,7 @@
 ---
 layout: post
-categories: [mocap]
+categories: [mocapclean]
+permalink: /action/mocapclean/2026-03-04-beforeCapture/
 description: > 
   당일 촬영이 문제없이 이루어 질 수 있도록, 이렇게 준비해왔습니다.
 image: 
