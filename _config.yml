@@ -69,12 +69,7 @@ menu:
         url:           /Animation/
 
   - title:             "Crowd Artist"
-    url:               /docs/
-    submenu:
-     - title:          "Houdini Agent"
-       url:            /HoudiniAgent/
-     - title:          "Crowd Simulation"
-       url:            /Crowd/
+    url:               /Crowd/
        
   - title:             "Technical Animator"
     url:               /about/
