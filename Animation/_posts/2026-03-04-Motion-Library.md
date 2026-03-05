@@ -3,7 +3,7 @@ layout: post
 categories: [mocapclean]
 permalink: /action/Animation/2026-03-04-motion-library/
 description: > 
-  당일 촬영이 문제없이 이루어 질 수 있도록, 이렇게 준비해왔습니다.
+  모션캡쳐를 통한 애니메이션은 이 툴 하나로 끝.
 image: 
   path: /assets/img/images/mocapLib.png
   srcset: 
@@ -35,6 +35,9 @@ sitemap: false
 
 위에 정리해둔 데이터들을 maya에서 불러오고, 프리뷰를 통해 모션을 볼 수 있도록 했습니다.  
 애니메이터는 태그를 통해 모션을 검색하고, 원하는 만큼 구간을 지정해서 데이터를 임포트하는것도 가능합니다.
+
+추가적으로, 사용자가 원하는 부분 (ex. 손, 팔, 상체 등)만 지정해서 따로 임포트 하는 기능과
+좌우 반전되어 임포트 되는 기능 등도 구현되어있습니다.
 
 자세한 사용방법은 사진을 클릭해주세요! (유튜브 링크로 이어집니다.)
 

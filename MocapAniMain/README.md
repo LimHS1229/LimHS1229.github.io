@@ -39,6 +39,9 @@
 - Motion Builder
 <br/>
 
+<img src="../assets/img/images/mobu2.png" width="600" height="330" /> 
+
+
 모션빌더 역시 프리뷰를 위해 사용될 수 있습니다. 또한, Xsens 와 같은 FBX데이터의 처리에 있어,  
  HumanIK시스템으로 컨트롤러를 일시적으로 부여해준 후 클린업 작업까지 수행합니다.
 <br/>
@@ -53,12 +56,14 @@ FBX, anim의 형태로 컨버팅하여 애니메이터가 사용하기 편하게
 ---
 상기한 일련의 과정들을 팀원들과 함께 고찰하여, 가장 사용하기 편리한 형태의 [클린업 파이프라인](https://limhs1229.github.io/mocapcleanup/2026-03-03-mocap-pipeline/)을 완성했습니다.
 
-또한, [액팅 및 오퍼레이팅 과정에서부터 어떻게하면 깔끔하고 좋은 데이터를 얻을 수 있을지](https://limhs1229.github.io/action/mocapclean/2026-03-04-beforeCapture/) 고민했습니다.
+또한, [액팅 및 오퍼레이팅 과정에서부터 어떻게하면 깔끔하고 좋은 데이터를 얻을 수 있을지](https://limhs1229.github.io/animation/mocapclean/2026-03-04-beforeCapture/) 고민했습니다.
 <br/>
 
 # Facial Capture
 
 - Metahuman Animator
+
+<img src="../assets/img/images/FACIAL.gif" width="600" height="330" /> 
 
 메타휴먼 애니메이터를 통해 iPhone 동영상을 촬영, 고품질의 페이셜 데이터를 얻을 수 있습니다.  
 메타휴먼 페이셜 리그에 직접 집어넣고, 애니메이터가 사용하기 용이하도록 전달합니다.
@@ -82,4 +87,4 @@ iPhone보다 가볍다는 장점이 있지만, 사전작업이 까다로운 편�
 모션캡쳐 라이브러리를 통해, 애니메이션 과정에 있어 작업자가 번거롭게 여러 툴 오갈 필요 없이,  
 Maya 하나만으로 데이터 프리뷰를 확인, 임포트 후 리타겟과정까지 자동으로 진행하는 툴을 개발했습니다.
 
-자세한건 [여기]()서 확인해주세요!
+자세한건 [여기](https://limhs1229.github.io/action/Animation/2026-03-04-motion-library/)서 확인해주세요!

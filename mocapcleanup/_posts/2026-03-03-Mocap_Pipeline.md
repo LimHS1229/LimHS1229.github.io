@@ -17,6 +17,7 @@ sitemap: false
 
 # CleanUp Pipeline
 ## Vicon에서의 클린업
+![VICON](/assets/img/images/vicon_capture.gif)
 
 Vicon Shogun Post에서 그래프를 깔끔하게 정리해줍니다.
 이 과정에 있어서 가장 신경쓰는건,   
@@ -32,6 +33,8 @@ Vicon Shogun Post에서 그래프를 깔끔하게 정리해줍니다.
 ![MCP](/assets/img/images/MCPtool.png)
 
 Vicon 에서의 클린업이 완료되면, FBX의 데이터를 maya로 가져옵니다.
+
+![mobu](/assets/img/images/mobu.gif)
 (Xsens의 경우에는 MotionBuilder를 사용합니다.)
 
 ![MCP](/assets/img/images/MCP_LIGHT.gif)

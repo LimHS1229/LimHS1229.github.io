@@ -41,7 +41,7 @@ sitemap: false
 ---
 ## 리스트업
 
-![mocaplist](../../assets/img/images/mocapscript.png)
+![mocaplist](../../assets/img/images/list.png)
 
 당일 촬영이 예정되어있는 샷을 액셀 등으로 가시화해, 촬영자와 액터가 어떤 액션을 취해야 하는지 명확하게 리스트로 전달합니다.
 
