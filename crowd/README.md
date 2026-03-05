@@ -36,11 +36,13 @@
 > COLONY
 
 <br/>
-<img src="../assets/img/images/gyerim_1gif" width="960" height="400" /> 
+<img src="../assets/img/images/gyerim_1.gif" width="960" height="400" /> 
 
-> Project : GYERIM
+> Flashback : GYERIM
 <br/>
 
 ## INTERVIEW
 
 KBS 1 TV [과학으로 보는 세상 SEE](https://youtu.be/F_Osc-0T1Ts) 에, TA로 군중 시뮬레이션 작품을 가지고 인터뷰에 참여했습니다.
+
+> ###### [원본 영상](https://www.youtube.com/watch?v=-8osJWeQL-E&list=PLk7JTfSfanWNACX0D69b0OA0tzhpouiRA&index=7) 12분 47초~

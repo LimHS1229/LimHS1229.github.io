@@ -65,8 +65,12 @@ FBX, anim의 형태로 컨버팅하여 애니메이터가 사용하기 편하게
 
 <img src="../assets/img/images/FACIAL.gif" width="600" height="330" /> 
 
-메타휴먼 애니메이터를 통해 iPhone 동영상을 촬영, 고품질의 페이셜 데이터를 얻을 수 있습니다.  
+Livelink Face 앱과 컨트롤 리그를 통해 iPhone 동영상을 촬영, 고품질의 페이셜 데이터를 얻을 수 있습니다.  
 메타휴먼 페이셜 리그에 직접 집어넣고, 애니메이터가 사용하기 용이하도록 전달합니다.
+
+<img src="../assets/img/images/lhsRND0911.png" width="600" height="330" /> 
+
+또한, 메타휴먼 애니메이터를 사용하여 모델의 페이셜데이터를 직접 받아와서, 간단하지만 더욱 정확한 데이터를 캡쳐할 수 있습니다.
 
 - Dynamixyz
 
