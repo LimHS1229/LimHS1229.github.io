@@ -69,7 +69,7 @@ menu:
         url:           /Animation/
 
   - title:             "Crowd Artist"
-    url:               /Crowd/
+    url:               /crowd/
        
   - title:             "Technical Animator"
     url:               /about/
