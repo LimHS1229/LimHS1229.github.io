@@ -9,7 +9,7 @@
 
 ## Tool & Scripts For Animation Pipeline
 ---
->애니메이터가 애니메이션에만 집중할 수 있도록 서포트.
+>애니메이터가 애니메이션에만 집중할 수 있도록 다양한 툴을 개발하여 서포트.
 
 [![썸네일 이미지](./mainScripts.png)](https://youtu.be/CEXviUdknZk)
 
