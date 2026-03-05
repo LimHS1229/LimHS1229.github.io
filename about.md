@@ -4,7 +4,7 @@ title: Animation TA
 permalink: /about/
 ---
 
-#
+
 ## 애니메이터를 위한 툴 제작
 
 애니메이션 작업을 보다 효율적으로 하기위해서는, 애니메이터의 감각도 중요하지만  
@@ -15,10 +15,10 @@ permalink: /about/
 
 스크립트 및 툴 RND를 통해 서포트 해왔습니다.
 
+---
+### - 모션 데이터의 자유로운 사용
+<img src="./assets/img/images/ABGarmImporter.png" width="200" height="480" /> 
 
-## 모션 데이터의 자유로운 사용
-
-![abg](/assets/img/images/ABGarmImporter.png)
 ---
 
 애니메이터들이 가장 아쉬워 한 것중 하나가, 전신이 보이지 않는 샷의 작업시,  
@@ -28,16 +28,16 @@ permalink: /about/
 
 추가로, 왼손의 모션이 마음에들어서 불러온 뒤, 오른손으로 미러 작업을 해주는 과정이 번거롭다는 의견도 들어,  
 <br/>
+<img src="./assets/img/images/mirrorimport.gif" width="800" height="400" /> 
 
-![mirror](/assets/img/images/mirrorimport.png)
 <br/>
 좌우반전 임포트 기능도 추가했습니다.
 
-<br/>
+---
 
-## 대용량 오브젝트 발사 전용 툴
+### - 대용량 오브젝트 발사 전용 툴
 
-![megapath](/assets/img/images/megapath.png)
+![megapath](./assets/img/images/megapath.png)
 
 대규모 전쟁씬이 있는 프로젝트에서, 화살이나 투석기를 이용한 투척 등, 포물선운동을 하는 오브젝트들이  
 뒤에 배경으로 깔려야하는 샷이 있었습니다.  
@@ -48,9 +48,11 @@ RIG로 만들어진 오브젝트의 리깅을 제거하고 불러와, 해당 오
 
 이후 커브값을 랜덤하게 생성해 오브젝트 그룹마다 해당 커브를 한개씩 따라가는 모션패스를 생성하여, 자연스러운 대규모 발사 씬이 만들어 질 수 있도록 서포트 했습니다.
 
-## 대규모 리타게팅 전용 툴
+---
 
-![crd](/assets/img/images/crdMonkey.png)
+### - 대규모 리타게팅 전용 툴
+
+![crd](./assets/img/images/crdMonkey.png)
 
 한 샷에, 캐릭터 하나하나가 다른 움직임을 하고있는 리그가 대략 100여마리 들어가있는 씬을 작업해야 했습니다.
 
@@ -67,9 +69,11 @@ RIG로 만들어진 오브젝트의 리깅을 제거하고 불러와, 해당 오
 
 그리고 리그를 각각 5~10개씩 나눠서 씬을 -batch모드로 돌려, 안정적으로 리타겟이 가능하도록 툴을 제작하여 서포트했습니다.
 
-## 복잡한 배경데이터의 바닥면을 추출하는 툴
+---
 
-![plr](/assets/img/images/PLR.png)
+### - 복잡한 배경데이터의 바닥면을 추출하는 툴
+
+![plr](./assets/img/images/PLR.png)
 
 VFX에서는 배경을 LIDAR 라는 시스템을 이용하여, 촬영 세트장을 직접 스캔해서 사용하는 방식을 취합니다.
 
@@ -79,16 +83,19 @@ VFX에서는 배경을 LIDAR 라는 시스템을 이용하여, 촬영 세트장�
 
 이후 라이팅과정에서 깔끔한 바닥이 필요하게 되어, 해당 툴을 사용하여 후반파트에 배경까지 같이 넘겨주는것이 정식 파이프라인으로 자리잡았습니다.
 
+---
 
-## 무거운 샷의 카메라 전환을 위해 바운드박스로 토글
+### - 무거운 샷의 카메라 전환을 위해 바운드박스로 토글
 
-![bound1](/assets/img/images/bound1.png)
-![bound2](/assets/img/images/bound2.png)
+![bound1](./assets/img/images/bound1.png)
+![bound2](./assets/img/images/bound2.png)
 
 마찬가지로 무거운샷의 경량화작업을 위한 툴입니다.  
 ON버튼을 누르면 드래그나 휠업 등으로 카메라를 전환할때, 바운드박스로 바뀌게되어 중간값을 렌더하지않습니다.
 
-## 그 외
+---
+
+### - 그 외
 
 그 외, 사내 규약과 전혀 다른 리그를 외주사에서 전달받았을때의 모캡데이터 임포트 담당이나,  
 캐시데이터나 스크립트의 오류 발생시 문제해결, 단순 문서화 작업부터 복잡한 파이프라인의 업데이트 등,   
