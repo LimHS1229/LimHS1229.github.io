@@ -17,12 +17,11 @@
 
 
 ## 자유로운 군중 제어
-<img src="../assets/img/images/crowdSimulTest.gif" width="900" height="460" /> 
+<img src="../assets/img/images/crowdSimulTest_1.gif" width="900" height="460" /> 
 
 이런식으로, 오브젝트나 VEX 스크립트를 통해 군중 파티클들의 진행방향이나 형태, 속도 등을 정해줄 수 있습니다.  
 위와같은 형태는 물고기 군중작업 당시 사용한 설정입니다.
 
-<br/>
 <br/>
 
 ## Crowd Scene
@@ -37,7 +36,11 @@
 > COLONY
 
 <br/>
-<img src="../assets/img/images/gyerim.gif" width="960" height="400" /> 
+<img src="../assets/img/images/gyerim_1gif" width="960" height="400" /> 
 
 > Project : GYERIM
 <br/>
+
+## INTERVIEW
+
+KBS 1 TV [과학으로 보는 세상 SEE](https://youtu.be/F_Osc-0T1Ts) 에, TA로 군중 시뮬레이션 작품을 가지고 인터뷰에 참여했습니다.
