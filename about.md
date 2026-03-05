@@ -18,7 +18,7 @@ permalink: /about/
 ---
 ### - 모션 데이터의 자유로운 사용
 
-<img src="./assets/img/images/ABGarmImporter.png" width="200" height="480" /> 
+![ui](./assets/img/images/ABGarmImporter.png)
 
 ---
 
