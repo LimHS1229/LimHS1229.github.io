@@ -17,6 +17,7 @@ permalink: /about/
 
 ---
 ### - 모션 데이터의 자유로운 사용
+
 <img src="./assets/img/images/ABGarmImporter.png" width="200" height="480" /> 
 
 ---
@@ -28,7 +29,8 @@ permalink: /about/
 
 추가로, 왼손의 모션이 마음에들어서 불러온 뒤, 오른손으로 미러 작업을 해주는 과정이 번거롭다는 의견도 들어,  
 <br/>
-<img src="./assets/img/images/mirrorimport.gif" width="800" height="400" /> 
+
+![mirror](./assets/img/images/mirrorimport.gif)
 
 <br/>
 좌우반전 임포트 기능도 추가했습니다.
